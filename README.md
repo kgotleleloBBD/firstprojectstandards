@@ -1,5 +1,8 @@
-# firstprojectstandards
+# First Project Standards
 The standard for the project
+
+## Reference
+https://eslint.org/docs/latest/rules
 
 ## Stylistic Standards  
 Camelcase naming convention.  
