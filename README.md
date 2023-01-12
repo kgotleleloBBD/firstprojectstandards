@@ -55,3 +55,8 @@ This rule generates warnings for generator functions that do not have the yield 
 Require or disallow spacing around embedded expressions of template strings.  
 
 ## Possible errors  
+Require or disallow trailing commas  
+Disallow assignment operators in conditional expressions  
+Disallow unreachable code after return, throw, continue, and break statements
+Disallow empty block statements  
+Disallow variable or function declarations in nested blocks
