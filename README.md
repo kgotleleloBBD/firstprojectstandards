@@ -59,7 +59,8 @@ https://eslint.org/docs/latest/rules
 * Disallow assignment operators in conditional expressions  
 * Disallow unreachable code after return, throw, continue, and break statements
 * Disallow empty block statements  
-* Disallow variable or function declarations in nested blocks
+* Disallow variable or function declarations in nested blocks  
+* Disallow reassigning exceptions in catch clauses  
 
 ## Variables
 * Disallow catch clause parameters from shadowing variables in the outer scope  
