@@ -1,5 +1,8 @@
-# firstprojectstandards
+# First Project Standards
 The standard for the project
+
+## Reference
+https://eslint.org/docs/latest/rules
 
 ## Stylistic Standards  
 Camelcase naming convention.  
@@ -14,9 +17,9 @@ Maximum amount of nests must not exceed 4.
 Maximum line length of 240.  
 Maximum depth that callbacks can be nested must not exceed 4.  
 Constructor names to begin with a capital letter.  
-Empty line after var, let, or const.
+Empty line after var, let, or const.  
 No Array constructors.  
-No mixed whitespaces and tabs. 
+No mixed whitespaces and tabs.  
 No multiple empty lines.  
 No trailing spaces.  
 No spaced functions.  
