@@ -25,3 +25,12 @@ spacing after semicolons.
 Enforce a whitespace after the comment literal.  
 Require spacing around infix operators.  
 No spacing inside parentheses. 
+
+
+## Best Practices
+Curly braces on the next line
+Nocomplexity from 15 and beyond not allowed
+No new operators allowed
+No operators with functions allowed
+Don't allow void operators
+Don't allow with operators
