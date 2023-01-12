@@ -61,6 +61,8 @@ https://eslint.org/docs/latest/rules
 * Disallow empty block statements  
 * Disallow variable or function declarations in nested blocks  
 * Disallow reassigning exceptions in catch clauses  
+* Disallow constant expressions in conditions  
+* Disallow control characters in regular expressions  
 
 ## Variables
 * Disallow catch clause parameters from shadowing variables in the outer scope  
