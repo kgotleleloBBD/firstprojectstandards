@@ -31,12 +31,12 @@ No spacing inside parentheses.
 
 
 ## Best Practices
-Curly braces on the next line
-Nocomplexity from 15 and beyond not allowed
-No new operators allowed
-No operators with functions allowed
-Don't allow void operators
-Don't allow with operators
+Curly braces on the next line.
+Nocomplexity from 15 and beyond not allowed.
+No new operators allowed.
+No operators with functions allowed.
+Don't allow void operators.
+Don't allow with operators.
 
 ## ECMAScript 6 (ES6)
 enforces parentheses around arrow function parameters regardless of arity.  
