@@ -55,7 +55,7 @@ https://eslint.org/docs/latest/rules
 * Require or disallow spacing around embedded expressions of template strings.  
 
 ## Possible errors  
-* Require or disallow trailing commas  
+* Disallow trailing commas  
 * Disallow assignment operators in conditional expressions  
 * Disallow unreachable code after return, throw, continue, and break statements
 * Disallow empty block statements  
