@@ -6,7 +6,7 @@ https://eslint.org/docs/latest/rules
 
 ## Stylistic Standards  
 * Camelcase naming convention.  
-* No spacing before and spacing after commas.  
+* No spacing before, spacing after commas.  
 * Consistent use of either single quotes in JSX attributes.  
 * No spacing before keys and values, spacing after  keys and values in object literal properties.  
 * Consistent spacing before and after keywords.  
@@ -23,7 +23,7 @@ https://eslint.org/docs/latest/rules
 * No trailing spaces.  
 * No spaced functions.  
 * Semicolons instead of ASI.  
-* spacing after semicolons.  
+* Spacing after semicolons.  
 * Enforce a whitespace after the comment literal.  
 * Require spacing around infix and unary operators.  
 * No spacing inside parentheses. 
