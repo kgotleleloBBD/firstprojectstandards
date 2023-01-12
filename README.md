@@ -53,3 +53,5 @@ If a variable is never reassigned, using the const declaration is better.
 Require template literals instead of string concatenation.  
 This rule generates warnings for generator functions that do not have the yield keyword.  
 Require or disallow spacing around embedded expressions of template strings.  
+
+## Possible errors  
