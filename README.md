@@ -11,7 +11,7 @@ Consistent spacing before and after keywords.
 Use Unix linebreak style.  
 Require empty lines before comments.  
 Maximum amount of nests must not exceed 4.  
-Maximum line length of 240. 
+Maximum line length of 240.  
 Maximum depth that callbacks can be nested must not exceed 4.  
 Constructor names to begin with a capital letter.  
 Empty line after var, let, or const.
