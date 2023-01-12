@@ -6,7 +6,6 @@ https://eslint.org/docs/latest/rules
 
 ## Stylistic Standards  
 Camelcase naming convention.  
-Brace starts on the same line, and allow single line double braces.  eg. function nop() { return; }.  
 No spacing before and spacing after commas.  
 Consistent use of either single quotes in JSX attributes.  
 No spacing before keys and values, spacing after  keys and values in object literal properties.  
@@ -26,17 +25,17 @@ No spaced functions.
 Semicolons instead of ASI.  
 spacing after semicolons.  
 Enforce a whitespace after the comment literal.  
-Require spacing around infix operators.  
+Require spacing around infix and unary operators.  
 No spacing inside parentheses. 
 
 
-## Best Practices
-Curly braces on the next line.
-Nocomplexity from 15 and beyond not allowed.
-No new operators allowed.
-No operators with functions allowed.
-Don't allow void operators.
-Don't allow with operators.
+## Best Practices  
+Curly braces on the next line.  
+Nocomplexity from 15 and beyond not allowed.  
+No new operators allowed.  
+No operators with functions allowed.  
+Don't allow void operators.  
+Don't allow with operators.  
 
 ## ECMAScript 6 (ES6)
 enforces parentheses around arrow function parameters regardless of arity.  
