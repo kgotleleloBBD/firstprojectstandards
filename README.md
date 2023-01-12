@@ -39,18 +39,18 @@ Don't allow void operators
 Don't allow with operators
 
 ## ECMAScript 6 (ES6)
-enforces parentheses around arrow function parameters regardless of arity
-normalize style of spacing before/after an arrow function’s arrow
-flag invalid/missing super() calls.
-Enforce consistent spacing around * operators in generator functions
-flag modifying variables of class declarations
-Disallow reassigning const variables
-Disallow duplicate class members
-Disallow new operators with the Symbol object
-In the constructor of derived classes, if this/super are used before super() calls, it raises a reference error
-Disallow unnecessary constructors
-This rule is aimed at discouraging the use of var and encouraging the use of const or let instead
-If a variable is never reassigned, using the const declaration is better.
-Require template literals instead of string concatenation
-This rule generates warnings for generator functions that do not have the yield keyword.
-Require or disallow spacing around embedded expressions of template strings
+enforces parentheses around arrow function parameters regardless of arity.  
+normalize style of spacing before/after an arrow function’s arrow.  
+flag invalid/missing super() calls.  
+Enforce consistent spacing around * operators in generator functions.  
+flag modifying variables of class declarations.  
+Disallow reassigning const variables.  
+Disallow duplicate class members.  
+Disallow new operators with the Symbol object.  
+In the constructor of derived classes, if this/super are used before super() calls, it raises a reference error.  
+Disallow unnecessary constructors.  
+This rule is aimed at discouraging the use of var and encouraging the use of const or let instead.  
+If a variable is never reassigned, using the const declaration is better.  
+Require template literals instead of string concatenation.  
+This rule generates warnings for generator functions that do not have the yield keyword.  
+Require or disallow spacing around embedded expressions of template strings.  
