@@ -61,36 +61,36 @@ https://eslint.org/docs/latest/rules
 * Disallow empty block statements  
 * Disallow variable or function declarations in nested blocks
 
-## variables
-Disallow catch clause parameters from shadowing variables in the outer scope  
-If you do not need to support IE 8 and earlier, you should turn this rule off - no-shadow encoumpasses it.  
+## Variables
+* Disallow catch clause parameters from shadowing variables in the outer scope  
+* If you do not need to support IE 8 and earlier, you should turn this rule off - no-shadow encoumpasses it.  
 
-The purpose of the delete operator is to remove a property from an object. Using the delete operator on a variable might lead to unexpected behavior.  
-This rule disallows the use of the delete operator on variables.  
+* The purpose of the delete operator is to remove a property from an object. Using the delete operator on a variable might lead to unexpected behavior.  
+* This rule disallows the use of the delete operator on variables.  
 
-Disallow labels that share a name with a variable  
-This rule aims to create clearer code by disallowing the bad practice of creating a label that shares a name with a variable that is in scope.  
+* Disallow labels that share a name with a variable  
+* This rule aims to create clearer code by disallowing the bad practice of creating a label that shares a name with a variable that is in scope.  
 
-Disallow variable declarations from shadowing variables declared in the outer scope  
+* Disallow variable declarations from shadowing variables declared in the outer scope  
 
-Disallow the use of variables before they are defined  
-Variables that are declared and not used anywhere in the code are most likely an error due to incomplete refactoring. Such variables take up space in the code and can lead to confusion by readers  
+* Disallow the use of variables before they are defined  
+* Variables that are declared and not used anywhere in the code are most likely an error due to incomplete refactoring. Such variables take up space in the code and can lead to confusion by readers  
 
-This rule can help you locate potential ReferenceErrors resulting from misspellings of variable and parameter names, or accidental implicit globals (for example, from forgetting the var keyword in a for loop initializer).  
+* This rule can help you locate potential ReferenceErrors resulting from misspellings of variable and parameter names, or accidental implicit globals (for example, from forgetting the var keyword in a for loop initializer).  
 
-ES5 §15.1.1 Value Properties of the Global Object (NaN, Infinity, undefined) as well as strict mode restricted identifiers eval and arguments are considered to be restricted names in JavaScript.   
-Defining them to mean something else can have unintended consequences and confuse others reading the code. For example, there’s nothing preventing you from writing:  
-Then any code used within the same scope would not get the global undefined, but rather the local version with a very different meaning.  
+* ES5 §15.1.1 Value Properties of the Global Object (NaN, Infinity, undefined) as well as strict mode restricted identifiers eval and arguments are considered to be restricted names in JavaScript.   
+* Defining them to mean something else can have unintended consequences and confuse others reading the code. For example, there’s nothing preventing you from writing:  
+* Then any code used within the same scope would not get the global undefined, but rather the local version with a very different meaning.  
 
-## strict
-A strict mode directive is a "use strict" literal at the beginning of a script or function body. It enables strict mode semantics.  
-When a directive occurs in global scope, strict mode applies to the entire script.  
-When a directive occurs at the beginning of a function body, strict mode applies only to that function, including all contained functions.  
+## Strict
+* A strict mode directive is a "use strict" literal at the beginning of a script or function body. It enables strict mode semantics.  
+* When a directive occurs in global scope, strict mode applies to the entire script.  
+* When a directive occurs at the beginning of a function body, strict mode applies only to that function, including all contained functions.  
 
-JavaScript's strict mode is a way to opt in to a restricted variant of JavaScript, thereby implicitly opting-out of "sloppy mode". Strict mode isn't just a subset: it intentionally has different semantics from normal code. Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode. Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
+* JavaScript's strict mode is a way to opt in to a restricted variant of JavaScript, thereby implicitly opting-out of "sloppy mode". Strict mode isn't just a subset: it intentionally has different semantics from normal code. Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode. Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
 
-Strict mode makes several changes to normal JavaScript semantics:
+* Strict mode makes several changes to normal JavaScript semantics:
 
-Eliminates some JavaScript silent errors by changing them to throw errors.  
-Fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode.  
-Prohibits some syntax likely to be defined in future versions of ECMAScript.  
+  * Eliminates some JavaScript silent errors by changing them to throw errors.  
+  * Fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode.  
+  * Prohibits some syntax likely to be defined in future versions of ECMAScript.  
